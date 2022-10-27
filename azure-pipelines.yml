@@ -21,7 +21,7 @@ steps:
   displayName: 'Use .NET SDK $(sdkVersion)'
   inputs:
     packageType: sdk
-    version: $(sdkVersion)
+    version: '$(sdkVersion)'
 
 - task: Npm@1
   displayName: 'Run npm install'
