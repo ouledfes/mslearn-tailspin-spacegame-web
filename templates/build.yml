@@ -1,5 +1,5 @@
- parameters:
-  name: buildConfiguration
+parameters:
+- name: buildConfiguration
   type: 'string'
   default: 'Release'
 
